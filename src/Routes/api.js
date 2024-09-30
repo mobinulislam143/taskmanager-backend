@@ -8,7 +8,8 @@ router.post('/registration', UserController.UserRegistration)
 
 router.post('/login', UserController.login)
 router.post('/update-profile', AuthverifyMiddleware, UserController.updateProfileDetails)
-router.get('/logout', AuthverifyMiddleware, UserController.logout)
+router.get('/test',  UserController.test)
+router.post('/logout', AuthverifyMiddleware, UserController.logout)
 router.get('/read-profile', AuthverifyMiddleware, UserController.ReadProfile)
 
 //task

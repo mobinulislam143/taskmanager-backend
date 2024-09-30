@@ -63,6 +63,15 @@ exports.updateProfileDetails = async (req, res) => {
 
 
 
+exports.test = async(req, res)=>{
+    try{
+        res.status(200).json({ status: "success" });
+    }catch(e){
+        res.status(500).json({ status: "failed" });
+
+    }
+}
+
 exports.logout = async(req, res)=>{
     let CookieOption = {expires: new Date(Date.now()-24*60*60*1000), httpOnly: false}
     res.cookie('token', "", CookieOption)

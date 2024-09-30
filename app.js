@@ -19,7 +19,12 @@ const mongoose = require('mongoose')
 
 // all lib import
 app.use(cookieParser())
-app.use(cors())
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://taskmanager-frontend-chi.vercel.app/'], // Allowed origins
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed methods
+  allowedHeaders: ['Content-Type', 'Authorization', 'token'], // Allowed headers (include 'token')
+  credentials: true, // Allow credentials (cookies, authorization headers, etc.)
+}));
 app.use(helmet())
 app.use(xss())
 app.use(hpp())
