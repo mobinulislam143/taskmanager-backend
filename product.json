@@ -1,0 +1,98 @@
+[
+    {
+    "_id": {
+      "$oid": "64f8ba608fcc62fe3de37a2e"
+    },
+    "name": "Half Hand Shirt",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "brand": "apple",
+    "category": "cloth",
+    "price": 800,
+    "image": "https://photo.teamrabbil.com/images/2023/10/03/Apple2.png",
+    "star": 5,
+    "stock": true,
+    "remark": "new",
+    "createdAt": "2023-09-20T17:17:56.893Z",
+    "updatedAt": "2023-09-20T17:17:56.893Z"
+  },
+  {
+    "_id": {
+      "$oid": "651da4431ce672f6c8b7961c"
+    },
+    "name": "Bag",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "brand": "Professor",
+    "category": "bag",
+    "price": 1500,
+    "image": "https://photo.teamrabbil.com/images/2023/10/03/Apple2.png",
+    "star": 4,
+    "stock": true,
+    "remark": "new",
+    "createdAt": "2023-09-20T17:17:56.893Z",
+    "updatedAt": "2023-09-20T17:17:56.893Z"
+  },
+  {
+    "_id": {
+      "$oid": "651da44d1ce672f6c8b7961d"
+    },
+    "name": "Laptop",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "brand": "HP",
+    "category": "Tech",
+    "price": 45000,
+    "image": "https://photo.teamrabbil.com/images/2023/10/03/Apple2.png",
+    "star": 5,
+    "stock": true,
+    "remark": "new",
+    "createdAt": "2023-09-20T17:17:56.893Z",
+    "updatedAt": "2023-09-20T17:17:56.893Z"
+  },
+  {
+    "_id": {
+      "$oid": "651da4531ce672f6c8b7961e"
+    },
+    "name": "Mobile",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "brand": "Samsung",
+    "category": "Tech",
+    "price": 1000,
+    "image": "https://photo.teamrabbil.com/images/2023/10/03/Apple2.png",
+    "star": 3,
+    "stock": true,
+    "remark": "new",
+    "createdAt": "2023-09-20T17:17:56.893Z",
+    "updatedAt": "2023-09-20T17:17:56.893Z"
+  },
+  {
+    "_id": {
+      "$oid": "651da47f1ce672f6c8b7961f"
+    },
+    "name": "Tie",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "brand": "Top 10",
+    "category": "cloth",
+    "price": 200,
+    "image": "https://photo.teamrabbil.com/images/2023/10/03/Apple2.png",
+    "star": 5,
+    "stock": true,
+    "remark": "new",
+    "createdAt": "2023-09-20T17:17:56.893Z",
+    "updatedAt": "2023-09-20T17:17:56.893Z"
+  },
+  {
+    "_id": {
+      "$oid": "654dbf1cabda0c85053c98fe"
+    },
+    "name": "Shoe",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "brand": "CAT",
+    "category": "Shoe",
+    "price": 1900,
+    "image": "https://photo.teamrabbil.com/images/2023/10/03/Apple2.png",
+    "star": 4,
+    "stock": true,
+    "remark": "new",
+    "createdAt": "2023-09-20T17:17:56.893Z",
+    "updatedAt": "2023-09-20T17:17:56.893Z"
+  }
+]
